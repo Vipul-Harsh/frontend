@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        background-color: whitesmoke;
+        box-sizing: border-box;
+        border: 2px solid black;
+        width: 21.6%;
+        height: 300px;
+        margin: 20px;
+        display: inline-block;
+
+      }
+      .details {
+        text-align: center;
+      }
+
+      .img {
+        height: 55%;
+
+      }
+      img {
+        height: 100%;
+        width: 100%;
+border-radius: 50px;
+      }
+
+      .nav-list {
+        list-style-type: none;
+        margin: 50px;
+box-sizing: border-box;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #333;
+height: 60px;
+      }
+      li {
+        display: inline-block;
+        justify-content: baseline;
+        padding: 10px;
+      }
+      li a {
+        color: aliceblue;
+        text-decoration: none;
+      }
+      li:hover {
+        background-color: darkgray;
+      }
+      body {
+        background: url(OIP.jpg);
+        background-repeat: no-repeat;
+      }
+
+      footer {
+        box-sizing: border-box;
+        background-color: grey;
+        text-align: center;
+        height: fit-content;
+        padding: 20px;
+      }
+      button {
+        background-color: black;
+        color: azure;
+        width: 100%;
+        height: 30px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul class="nav-list">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li style="float: right"><a href="#">SIGNUP</a></li>
+        <li style="float: right"><a href="#">LOGIN</a></li>
+      </ul>
+      <div
+        style="
+          text-align: center;
+          color: #333;
+          font-family: 'Times New Roman', Times, serif;
+        "
+      >
+        <h2>PRODUCTS LIST</h2>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img
+          src="Nike-Multi-Color-Casual-Shoes-SDL051199315-1-a2a35.jpg"
+          alt=""
+        />
+      </div>
+      <div class="details">
+        <h4>SHOES-1</h4>
+        <p>600/-</p>
+        <button class="web">BUY</button>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="R (1).jpg" alt="" />
+        <div class="details">
+          <h4>SHOES-2</h4>
+          <p>600/-</p>
+          <button>BUY</button>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="R.jpg" />
+        <div class="details">
+          <h4>SHOES-3</h4>
+          <p>600/-</p>
+          <button>BUY</button>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="81a-63q9UNL._S110_.jpg" alt="" />
+        <div class="details">
+          <h4>SHOES-4</h4>
+          <p>600/-</p>
+          <button>BUY</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <h2>Follow us on</h2>
+        <ul>
+          <li>Instagam</li>
+          <li>Youtube</li>
+          <li>Linkden</li>
+          <li>Github</li>
+        </ul>
+
+        <label><b>CONTACT US</b></label
+        ><br />
+        <form>
+          NAME:<input type="text" />
+          <br />
+          <br />
+          EMAIL:<input type="email" />
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
