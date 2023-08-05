@@ -1,0 +1,102 @@
+.container{
+
+height: 97vh;
+display: flex;
+/*justify-content: center;
+align-items: center;*/
+flex-direction: column;
+}
+.navbar{
+
+position: sticky;
+top: 0;
+height:10%;
+width: 100%;
+display:flex;
+flex-wrap: wrap;
+justify-content: right;
+align-items: center;
+}
+.logo{
+
+height: calc(100% - 560px);;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.search{
+
+height: 160px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.buttons{
+
+height: 32%;
+}
+.footer{
+height: 15%;
+width: 100%;
+background-color: rgb(240, 237, 237);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+position: relative;
+top: 28px;
+}
+.items{
+
+margin: 8px;
+}
+.parent{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+border: 1px solid lightgray;
+width: 40%;
+position: relative;
+top: -20px;
+}
+.icons{
+margin: 10px;
+}
+.button{
+height: 20%;
+width: 50%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+button{
+margin: 15px;
+padding: 8px;
+border: none;
+font-size: 16px;
+}
+a{
+margin: 20px;
+text-decoration: none;
+color: darkblue;
+}
+.p{
+text-align: center;
+}
+span{
+position: relative;
+left: 0px;
+top: 12px;
+font-size: 18px;
+color: gray;
+}
+
+.d{
+color: gray;
+}
