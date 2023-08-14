@@ -1,0 +1,220 @@
+body {
+  background-image: url(net.png);
+}
+.container {
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+
+  opacity: 1.5;
+}
+.box {
+  border: 2px solid black;
+  height: 65%;
+  background-color: rgba(2, 0, 0, 0.89);
+  width: 450px;
+  position: relative;
+  top: -54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  height: 22%;
+  width: 100%;
+  position: relative;
+  top: -97px;
+}
+
+.form {
+  height: 27rem;
+  width: 21rem;
+  position: relative;
+  top: -25px;
+}
+.logo {
+  height: 3rem;
+  width: 100%;
+  text-align: left;
+}
+.write {
+  height: 14rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form2 {
+  height: 148px;
+  width: 100%;
+  letter-spacing: 0 !important;
+  position: relative;
+  top: 52px;
+}
+.footer {
+  border: 2px solid black;
+  height: 30%;
+  width: 100%;
+  position: relative;
+  bottom: -49px;
+  background-color: rgba(2, 0, 0, 0.89);
+  display: flex;
+  flex-direction: column;
+}
+.footbody {
+  margin: 24px;
+  margin-left: 39px;
+}
+.sign {
+  width: 92%;
+  height: 45px;
+  margin-top: 18px;
+  font-size: 16px;
+  background-color: #e50914;
+  outline: none;
+  border: none;
+  color: white;
+}
+.inp {
+  height: 40px;
+  width: 90%;
+  margin: 8px;
+  border-radius: 5px;
+  background-color: #333;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+.last {
+  display: flex;
+  flex-direction: row;
+}
+#i {
+  color: #000;
+  font-size: 18px;
+  position: relative;
+  left: -69px;
+  top: 4px;
+  background-color: grey;
+}
+.foot {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  position: relative;
+  left: 11px;
+}
+.site {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+}
+.recap {
+  color: #8c8c8c;
+  font-size: 13px;
+  margin-top: 11px;
+  position: absolute;
+  left: 12px;
+  flex-wrap: wrap;
+}
+.re {
+  background-color: transparent;
+  border: none;
+  color: #0071eb;
+  cursor: pointer;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+}
+.imge {
+  height: 25%;
+  width: 19%;
+  filter: contrast(151%);
+  position: relative;
+  top: 101px;
+  left: 20px;
+}
+.hi {
+  color: #757575;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 16px;
+}
+.num {
+  text-decoration: none;
+  color: #757575;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+}
+.link {
+  color: #757575;
+  /*list-style: none;
+      padding: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;*/
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.vary {
+  /*margin-left: 20px;
+      margin-right: 20px;*/
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 16px;
+  min-width: 100px;
+  padding: 0 12px 0 0;
+  vertical-align: top;
+  width: 25%;
+}
+.lan {
+  display: inline-block;
+  margin-left: 37px;
+  height: 40px;
+  width: 100px;
+  background-color: transparent;
+  color: #757575;
+}
+@media only screen and (max-width: 740px){
+.box {
+    width: 100%;
+    
+    /*max-width: 450px;*/
+
+   
+}
+.form{
+width: 100%;
+}
+.footer{
+position: relative;
+top: -54px;
+
+}
+.lang{
+margin-bottom: 100px;
+}
+}
