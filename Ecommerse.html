@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./shop.css" />
+    <link href="../../min.txt" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d006de727e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <!--<ul class="nav-item">
+
+          <li class="it">Home</li>
+          <li class="it">Ctegories</li>
+          <li class="it">Deals</li>
+          <div class="log"><span>Refresh</span></div>
+          <li class="it" style="float: right">About</li>
+          <li class="it" style="float: right">Subscribe</li>
+        </ul>-->
+
+        <div class="topnav-centered">
+          <a href="#home" class="active">refresh</a>
+        </div>
+
+        <a href="#news">Home</a>
+        <a href="#contact">Contact</a>
+
+        <div class="topnav-right">
+          <a href="#search">Signup</a>
+          <a href="#about">About</a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="mySlides">
+          <div class="numbertext">1 / 3</div>
+          <img
+            src="./Ecommerse project/saleclothes.png"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img
+            src="./Ecommerse project/shoesale.png"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img
+            src="./Ecommerse project/diwali.png"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center; position: relative; top: -43px">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <div class="categories">
+        <div class="head">
+          <h1><span>Categories</span></h1>
+        </div>
+        <div class="list">
+          <div class="cloth">
+            <img class="imge" src="./Ecommerse project/pant.png" />
+          </div>
+          <div class="cloth">
+            <img class="imge" src="./Ecommerse project/coat.png" />
+          </div>
+          <div class="cloth">
+            <img class="imge" src="./Ecommerse project/dress.png" />
+          </div>
+          <div class="cloth">
+            <img class="imges" src="./Ecommerse project/shoes.png" />
+          </div>
+        </div>
+        <div class="catfoot">
+          <button type="button" onClick="changeHeight();">Click Me!</button>
+          <button type="button" onClick="decrease();">decrease Me!</button>
+        </div>
+      </div>
+      <div class="sale">
+        <div class="box1">
+          <img class="d" src="./Ecommerse project/fashion.png" /><span class="s"
+            ><h1>Flat 40% Off</h1>
+            <br />Womens clothing</span
+          >
+        </div>
+        <div class="contain">
+          <div class="box2">
+            <img class="d" src="./Ecommerse project/men.png" />
+            <div class="middle">
+              <div class="text">John Doe</div>
+            </div>
+          </div>
+
+          <div class="box3">
+            <img class="d" src="./Ecommerse project/ind.png" />
+          </div>
+          <div class="box4">
+            <img class="d" src="./Ecommerse project/buy.png" />
+          </div>
+          <div class="box5">
+            <img class="d" src="./Ecommerse project/sweat.png" />
+            <div class="middle">
+              <div class="text">John Doe</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact swiper">
+        <div class="card-slide">
+          <div class="wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image">
+                <span class="over"></span>
+                <div class="img-card">
+                  <img src="./Ecommerse project/avatar1.png" class="card-img" />
+                </div>
+              </div>
+              <div class="card-detail">
+                <h2 class="name">John doe</h2>
+                <p class="desc">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Exercitationem, ad?
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image">
+                <span class="over"></span>
+                <div class="img-card">
+                  <img src="./Ecommerse project/avatar2.png" class="card-img" />
+                </div>
+              </div>
+              <div class="card-detail">
+                <h2 class="name">John doe</h2>
+                <p class="desc">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Exercitationem, ad?
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image">
+                <span class="over"></span>
+                <div class="img-card">
+                  <img src="./Ecommerse project/avatar3.png" class="card-img" />
+                </div>
+              </div>
+              <div class="card-detail">
+                <h2 class="name">John doe</h2>
+                <p class="desc">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Exercitationem, ad?
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image">
+                <span class="over"></span>
+                <div class="img-card">
+                  <img src="./Ecommerse project/avatar4.png" class="card-img" />
+                </div>
+              </div>
+              <div class="card-detail">
+                <h2 class="name">John doe</h2>
+                <p class="desc">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Exercitationem, ad?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="about">
+        <div class="top">
+          <span
+            style="font-size: 27px; font-family: cursive; text-align: center"
+            >FeedBack</span
+          >
+        </div>
+        <div class="data">
+          <div class="col1">
+            <div class="topc"><span id="b">About Us</span></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              consequatur facere reiciendis, quisquam ullam, fugit quibusdam
+              odio in autem voluptatum natus. Veniam veritatis ad molestias
+              sequi iste maxime ex possimus non praesentium tenetur? Temporibus
+              culpa harum, ea reiciendis dignissimos nulla commodi ab sint illum
+              ipsum voluptatum atque alias enim, sed provident cum, hic nemo
+              eius eveniet doloribus magni porro laudantium? Nam aperiam aliquam
+              ipsam eum, deleniti facere minima sint tenetur!
+            </p>
+          </div>
+          <div class="col2">
+            <div class="topc"><span id="c">Contact Us</span></div>
+            <label>Enter Email</label
+            ><input type="email" placeholder="Enter Email" />
+            <label>Enter Password</label
+            ><input type="Password" placeholder="Enter Password" />
+            <input type="submit" id="fo" />
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="main">
+          <div class="sec1">
+            <div class="fol1">
+              <h4>
+                Give your inbox a
+                <span
+                  style="
+                    font-family: garamond-premier-pro,
+                      garamond-premier-pro-display, Georgia, serif;
+                    font-size: 2rem;
+                    font-style: italic;
+                    font-weight: 300;
+                    letter-spacing: 0.5px;
+                    line-height: 1;
+                  "
+                  >refresh</span
+                >.
+              </h4>
+              <p class="rot">
+                10% off your first order when you sign up for our plastic-free
+                and spam-free emails.
+              </p>
+            </div>
+            <div class="fol2">
+              <input
+                type="email"
+                placeholder="Enter email to subscribe"
+                style="background-color: white; height: 40px"
+              />
+              <button
+                style="
+                  background-color: black;
+                  color: white;
+                  width: 81.5%;
+                  height: 40px;
+                "
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <hr />
+          <div class="sec2">
+            <ul class="lists">
+              <li class="lib">About</li>
+              <li class="lib">Privacy</li>
+              <li class="lib">Terms</li>
+              <li class="lib">Help</li>
+              <li class="lib">Language</li>
+              <li class="lib">FeedBack</li>
+              <li class="lib">Caption</li>
+              <li class="lib">Cnditions</li>
+            </ul>
+            <div class="follow">
+              <span><center>follow us on</center></span>
+              <ul class="nut">
+                <li class="insta">
+                  <i class="fa-brands fa-instagram fa-bounce"></i>
+                </li>
+                <li class="insta">
+                  <i class="fa-brands fa-square-facebook fa-bounce"></i>
+                </li>
+                <li class="insta">
+                  <i class="fa-brands fa-twitter fa-bounce"></i>
+                </li>
+                <li class="insta">
+                  <i class="fa-brands fa-github fa-bounce"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../js.txt"></script>
+    <script>
+      function changeHeight() {
+        document.getElementsByClassName("categories")[0].style.height = "28%";
+      }
+      function decrease() {
+        document.getElementsByClassName("categories")[0].style.height = "14%";
+      }
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+      var swiper = new Swiper(".contact", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
